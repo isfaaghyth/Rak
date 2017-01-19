@@ -53,4 +53,6 @@ Rak.remove("key"); //by key
 Rak.removeAll(); //completely remove all data
 ```
 
+
+
 [LICENSE](https://github.com/isfaaghyth/Rak/blob/master/LICENSE)
