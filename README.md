@@ -1,5 +1,5 @@
 # Rak
-Rak is a data Storage Library for Android (NoSQL) using Kryo. I was inpirated by the dish-rack (dish structure are neatly arranged).
+Rak is a data Storage Library for Android (NoSQL) using Kryo. I was inpirated by Paper-Lib mechanism and also the dish-rack (dish structure are neatly arranged).
 
 [![](https://jitpack.io/v/isfaaghyth/Rak.svg)](https://jitpack.io/#isfaaghyth/Rak)
 
@@ -52,3 +52,5 @@ List<> testMap = Rak.grab("key", new List());
 Rak.remove("key"); //by key
 Rak.removeAll(); //completely remove all data
 ```
+
+[LICENSE](https://github.com/isfaaghyth/Rak/blob/master/LICENSE)
