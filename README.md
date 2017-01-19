@@ -14,7 +14,7 @@ allprojects {
 	}
 ```
 and in dependency project
-```
+```java
 compile 'com.github.isfaaghyth:Rak:1.0.0'
 ```
 ### Started
