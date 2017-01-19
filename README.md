@@ -3,7 +3,7 @@ Rak is a data Storage Library for Android (NoSQL) using Kryo. I was inpirated by
 
 [![](https://jitpack.io/v/isfaaghyth/Rak.svg)](https://jitpack.io/#isfaaghyth/Rak)
 
-## Features
+### Features
 - [x] Insert, Remove, and Grab.
 - [x] fast reading.
 - [x] support: POJO.
