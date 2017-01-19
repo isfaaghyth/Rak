@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/isfa/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="/Users/isfa/Documents/BitStorage/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.0_c01e22cb1317511f61ea67bfbeb7de5b68a21f47/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/isfa/.gradle/caches/modules-2/files-2.1/com.esotericsoftware/minlog/1.3.0/ff07b5f1b01d2f92bb00a337f9a94873712f0827/minlog-1.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ff07b5f1b01d2f92bb00a337f9a94873712f0827">
+        <dex dex="/Users/isfa/Documents/BitStorage/app/build/intermediates/transforms/dex/debug/folders/1000/10/minlog-1.3.0_148467dd1692f07d6f8ee8a9ca21b7bc067ebfb4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/isfa/Documents/BitStorage/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fadb78aa3153c8339c71a06d60487e687b5ef3fb">
+        <dex dex="/Users/isfa/Documents/BitStorage/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_d56f2a254772a5b651aaea881a25a183db447420/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/isfa/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="562cb61898302da4e8d3fd141c821edb1bc6b36d">
+        <dex dex="/Users/isfa/Documents/BitStorage/app/build/intermediates/transforms/dex/debug/folders/1000/10/kryo-serializers-0.40_efa45310803e5c1cd449f0e505c62e1f1758d762/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/isfa/Documents/BitStorage/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="/Users/isfa/Documents/BitStorage/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.0_3ad4ed973137be47bf344843fd8b3978c6eb867e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/isfa/Documents/BitStorage/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="/Users/isfa/Documents/BitStorage/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.0_1e6480fcc0b245d59df726e37ac317c541873d5b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/isfa/Documents/BitStorage/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="/Users/isfa/Documents/BitStorage/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.0_1b2d7ab1d0d3b4c45133adbf48cd94a4eefd0c57/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/isfa/Documents/BitStorage/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c9ae1880a74e1f718c86f72683758c7439933179">
+        <dex dex="/Users/isfa/Documents/BitStorage/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_cbf6e650e69819b5ce76d03c413bc8c4b32de116/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Applications/Android Studio.app/Contents/gradle/m2repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0da08b8cce7bbf903602a25a3a163ae252435795">
+        <dex dex="/Users/isfa/Documents/BitStorage/app/build/intermediates/transforms/dex/debug/folders/1000/10/asm-5.0.4_3fbd309449f3544e9e395f8aa9eca49b1692864f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/isfa/Documents/BitStorage/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/Users/isfa/Documents/BitStorage/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.0_fd1d46141ce71777bad81bacc7efc3485cafed04/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/isfa/Documents/BitStorage/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="/Users/isfa/Documents/BitStorage/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.0_4391570b0c52a7f46fa2d176341eb331de5de9cb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/isfa/Documents/BitStorage/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="/Users/isfa/Documents/BitStorage/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.0_5282fe8ba7b13601a38c26ff6fb02c82be82e556/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/isfa/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.2/3fb533efdaa50a768c394aa4624144cf8df17845/objenesis-2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3fb533efdaa50a768c394aa4624144cf8df17845">
+        <dex dex="/Users/isfa/Documents/BitStorage/app/build/intermediates/transforms/dex/debug/folders/1000/10/objenesis-2.2_df4ef6d804a51480b98ae717d588474b3d6167a7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/isfa/.gradle/caches/modules-2/files-2.1/com.esotericsoftware/kryo/4.0.0/9f5c64c1315ec79bee0f56bb88e4ae94b65048ce/kryo-4.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9f5c64c1315ec79bee0f56bb88e4ae94b65048ce">
+        <dex dex="/Users/isfa/Documents/BitStorage/app/build/intermediates/transforms/dex/debug/folders/1000/10/kryo-4.0.0_1ad697d56b732fc5c481824f29360f62b0b68b63/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/isfa/Documents/BitStorage/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/isfa/Documents/BitStorage/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.0_4f9b90c29c7d109a6c88edfe51afd57432f62e29/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/isfa/Documents/BitStorage/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="/Users/isfa/Documents/BitStorage/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.0_278d141b6388fb588ad0c4d8d590222f81445130/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/isfa/Documents/BitStorage/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="/Users/isfa/Documents/BitStorage/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.0_9c4d64c3111abc3a6aed9cd9f458f64ce81329ad/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/isfa/.gradle/caches/modules-2/files-2.1/com.esotericsoftware/reflectasm/1.11.3/8b102eed2f12412b254946811111ea48bc03a266/reflectasm-1.11.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8b102eed2f12412b254946811111ea48bc03a266">
+        <dex dex="/Users/isfa/Documents/BitStorage/app/build/intermediates/transforms/dex/debug/folders/1000/10/reflectasm-1.11.3_57ab36060bd9af861654bdc7cc1db61ab4c7c560/classes.dex" />
+    </item>
+
+</items>
