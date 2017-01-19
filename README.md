@@ -6,6 +6,7 @@ Rak is a data Storage Library for Android (NoSQL) using Kryo. I was inpirated by
 ## Features
 - [x] Insert, Remove, and Grab.
 - [x] fast reading.
+- [x] support: POJO.
 
 ### Add Dependency
 Add it in your root build.gradle at the end of repositories:
@@ -22,19 +23,27 @@ and in dependency project
 compile 'com.github.isfaaghyth:Rak:1.0.0'
 ```
 ### Starting
+you must be initialize of Rak on onCreate() in Activity or Application.
 ```java
 Rak.initialize(context);
 ```
 ### Insert an awesome data
-you can insert of any type of data for Rak value.
+insert data object.
 ```java
 Rak.entry("key", "value");
 Rak.entry("key", hashMap);
 Rak.entry("key", list);
 ```
 ### Grab it!
+grab data object.
 ```java
 String hai = Rak.grab("key");
+HashMap<> testMap = Rak.grab("key");
+List<> testMap = Rak.grab("key");
+```
+or using default value if doesn't exist in data storage.
+```java
+String hai = Rak.grab("key", "default value");
 HashMap<> testMap = Rak.grab("key", new HashMap());
 List<> testMap = Rak.grab("key", new List());
 ```
