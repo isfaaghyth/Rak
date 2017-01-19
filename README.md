@@ -23,7 +23,7 @@ and in dependency project
 compile 'com.github.isfaaghyth:Rak:1.0.0'
 ```
 ### Starting
-you must be initialize of Rak on onCreate() in Activity or Application.
+you must be initialize Rak on onCreate() in Activity or Application.
 ```java
 Rak.initialize(context);
 ```
