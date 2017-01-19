@@ -13,6 +13,18 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //just test.
+        TextView txtTest = (TextView) findViewById(R.id.txt_test);
+        
+        //initialize
         Rak.initialize(this);
+        
+        //entry and show data
+        Rak.entry("hai", "I am cool!");
+        String result = Rak.grab("hai");
+        txtTest.setText(result);
+        
+        //remove
+        Rak.remove("hai");
     }
 }
