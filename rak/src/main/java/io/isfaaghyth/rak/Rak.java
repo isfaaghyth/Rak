@@ -13,7 +13,6 @@ import java.util.concurrent.ConcurrentHashMap;
 
 public class Rak {
 
-    static final String TAG = "rakdb";
     static final String DEFAULT_DB_NAME = "rak.db";
 
     static Context mContext;
@@ -27,7 +26,7 @@ public class Rak {
 
     public static Entry entry(String name) {
         if (name.equals(DEFAULT_DB_NAME)) throw new RuntimeException(DEFAULT_DB_NAME +
-                " sama dengan nama library, silahkan coba dengan nama lain.");
+                " same as library name. try using different name");
         return getEntry(name);
     }
 
@@ -41,7 +40,7 @@ public class Rak {
 
     private static Entry getEntry(String name) {
         if (mContext == null) {
-            throw new RuntimeException("Rak tidak bisa dipanggil");
+            throw new RuntimeException("Rak cant loaded");
         }
         synchronized (entryMap) {
             Entry entry = entryMap.get(name);
