@@ -88,7 +88,7 @@ public class PlainData implements Storage {
         if (originalRak.exists()) {
             if (!backup.exists()) {
                 if (!originalRak.renameTo(backup)) {
-                    throw new RuntimeException("Tidak bisa mengubah nama file " + originalRak + " ke " + backup);
+                    throw new RuntimeException("cant change name from " + originalRak + " to " + backup);
                 }
             } else {
                 originalRak.delete();
@@ -135,7 +135,7 @@ public class PlainData implements Storage {
         }
 
         if (!deleteRak) {
-            throw new RuntimeException("Tidak bisa menghapus file " + originalRak + " untuk table " + key);
+            throw new RuntimeException("cant remove " + originalRak + " for table " + key);
         }
     }
 
@@ -145,7 +145,7 @@ public class PlainData implements Storage {
 
         String dbLocation = getCurrentDirectory(context, dbName);
         if (!deleteDirectory(dbLocation)) {
-            Log.e(TAG, "Tidak bisa menghapus direktori " + dbLocation);
+            Log.e(TAG, "cant delete directory " + dbLocation);
         }
 
         RakDir = false;
@@ -185,7 +185,7 @@ public class PlainData implements Storage {
     }
 
     private File createBackup(File originalFile) {
-        return new File(originalFile.getPath() + ".bak");
+        return new File(originalFile.getPath() + ".bak"); //for backup
     }
 
     private void createRakDirectory() {
@@ -193,7 +193,7 @@ public class PlainData implements Storage {
         if (!new File(filesDir).exists()) {
             boolean isExist = new File(filesDir).mkdirs();
             if (!isExist) {
-                throw new RuntimeException("Tidak bisa membuat direktori: " + filesDir);
+                throw new RuntimeException("cant create a directory: " + filesDir);
             }
         }
     }
@@ -211,10 +211,10 @@ public class PlainData implements Storage {
         } catch (IOException e) {
             if (originalFile.exists()) {
                 if (!originalFile.delete()) {
-                    throw new RuntimeException("Tidak bisa menghapus");
+                    throw new RuntimeException("cant deleted");
                 }
             }
-            throw new RuntimeException("Tidak bisa save table " + key, e);
+            throw new RuntimeException("cant save to table " + key, e);
         }
     }
 
@@ -242,12 +242,12 @@ public class PlainData implements Storage {
             }
             if (originalFile.exists()) {
                 if (!originalFile.delete()) {
-                    throw new RuntimeException("tidak bisa menghapus file "
+                    throw new RuntimeException("cant deleted file "
                             + originalFile, e);
                 }
             }
-            String errorMessage = "tidak bisa menbaca file "
-                    + originalFile + " untuk table " + key;
+            String errorMessage = "cant read file "
+                    + originalFile + " for table " + key;
             throw new RuntimeException(errorMessage, e);
         }
     }
