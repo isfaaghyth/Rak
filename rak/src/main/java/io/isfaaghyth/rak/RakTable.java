@@ -5,9 +5,7 @@ package io.isfaaghyth.rak;
  */
 
 public class RakTable<T> {
-
     T content;
-
     @SuppressWarnings("RakDeclaration") RakTable() {}
 
     RakTable(T content) {
