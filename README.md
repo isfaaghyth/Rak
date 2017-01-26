@@ -43,7 +43,7 @@ List<> testMap = Rak.grab("key");
 ```
 or using default value if doesn't exist in data storage.
 ```java
-String hai = Rak.grab("key", "default value");
+String hai = Rak.grab("key", "value");
 HashMap<> testMap = Rak.grab("key", new HashMap());
 List<> testMap = Rak.grab("key", new List());
 ```
