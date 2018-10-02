@@ -26,7 +26,7 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile 'com.esotericsoftware:kryo:4.0.0'
+    compile 'com.esotericsoftware:kryo:4.0.1'
     compile 'de.javakaffee:kryo-serializers:0.40'
 
     testCompile 'junit:junit:4.12'
